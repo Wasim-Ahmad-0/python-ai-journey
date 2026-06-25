@@ -7,13 +7,13 @@ try:
         print("Perfect Score! 🌟 You got an A+!")
     
     # 3. Check standard grade boundaries
-    elif score >= 80:
+    elif 80 <= score <= 99:
         print("Grade: A")
-    elif score >= 60:
+    elif 60 <= score <= 79:
         print("Grade: B")
-    elif score >= 40:
+    elif 40 <= score <= 59:
         print("Grade: C")
-    elif score >= 33:
+    elif 33 <= score <= 39:  # Fixed the syntax error here
         print("Grade: D")
     elif 0 <= score < 33:
         print("Grade: Fail")
